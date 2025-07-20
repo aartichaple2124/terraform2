@@ -30,37 +30,37 @@ variable "component" {
 
     cart = {
       name = "cart"
-      vm_size = "Standard B2s"
+      vm_size = "Standard_D2as_v4"
     }
 
     mysql = {
       name = "mysql"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
 
     shipping = {
       name = "shipping"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
 
     payment = {
       name = "payment"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
 
     redis = {
       name = "redis"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
 
     dispatch = {
       name = "dispatch"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
 
     rabbitmq = {
       name = "rabbitmq"
-      vm_size = "Standard_B1ms"
+      vm_size = "Standard_D2as_v4"
     }
   }
 }
