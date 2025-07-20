@@ -11,7 +11,7 @@ variable "component" {
 
     frontend = {
       name    = "frontend"
-      vm_size = "Standard B2s"
+      vm_size = "Standard_B4ms"
     }
   }
 }
