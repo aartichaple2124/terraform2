@@ -25,32 +25,32 @@ variable "component" {
 
     user = {
       name = "user"
-      vm_size = "Standard_B4ms"
+      vm_size = "Standard_B2ms"
     }
 
     cart = {
       name = "cart"
-      vm_size = "Standard_D2as_v4"
+      vm_size = "Standard_B2ms"
     }
 
     mysql = {
       name = "mysql"
-      vm_size = "Standard_D2as_v4"
+      vm_size = "Standard_B2ms"
     }
 
     shipping = {
       name = "shipping"
-      vm_size = "Standard_D2as_v4"
+      vm_size = "Standard_B2ms"
     }
 
     payment = {
       name = "payment"
-      vm_size = "Standard_D2as_v4"
+      vm_size = "Standard_B2ms"
     }
 
     redis = {
       name = "redis"
-      vm_size = "Standard_D2as_v4"
+      vm_size = "Standard_B2ms"
     }
 
     dispatch = {
